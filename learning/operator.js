@@ -36,3 +36,8 @@ console.log(1 + 2 * 4 % 3);
 let gamecounter = 100;
 ++gamecounter;
 console.log(gamecounter);
+
+console.log("2" > 1);
+console.log("02" > 1);
+
+console.log("Hello World");
