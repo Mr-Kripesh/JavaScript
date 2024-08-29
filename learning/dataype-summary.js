@@ -12,8 +12,13 @@
 // Reference (Non-Primitive) type
 // Arrays, Objects, Functions
 
-// const heros =["Kripesh", "Raj", "Panta"]
+const heros =["Kripesh", "Raj", "Panta"]
+
 const bignumber= 784159725446321n;
+// number ko paxadi "n" include garyo vani tyo big number ma convert hunxa.
+
+const outsidetemp = null;
+
 let myObj = {
     name:"Kripesh",
     age: 20
@@ -24,3 +29,17 @@ const myfunction = function() {
 }
 
 console.log(typeof bignumber);
+console.log(typeof outsidetemp);
+
+//string= string
+// undefined = undefined
+// null = Object
+// number = number
+// boolean = boolean
+// object(native and does not implement [Call]) = object
+// object (native or host and does implement [call] || [function] = function
+// object (host and doesnot implement [call]) = Implementation-define expect may not be "undefined", "boolean", "number", "String".
+
+console.log(typeof myfunction);
+console.log(typeof heros);
+
