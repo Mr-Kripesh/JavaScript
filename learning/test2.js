@@ -1,7 +1,7 @@
  let name="Kripesh" //String 
  let age= 18 // number
  let islogedin = true //boolean
-
+ 
  //number=> 2 to power 53
  //bigint use to store large number use in trading stock market big website facebook,etc.
  //string =>" "
