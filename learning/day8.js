@@ -2,7 +2,7 @@ const accountId= 13456
 let accountEmail = "hfgjkdfbgteiugtveuy"
 var accountPassword = "1234"
 accountCity="chitwan"
-let accountState = active
+let accountState = "active"
 // we can palcce values without declaring any var const let but we shouldnot do it 
 // morover we can use ; this at the end and nothing will happen if we dont in JavaScript
 // code run garda khari undefine aaxa 
