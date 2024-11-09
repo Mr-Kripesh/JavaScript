@@ -21,5 +21,5 @@ tax2 = total * (20/100);
 console.log(total + tax2);
 
 // converting temperature from one measuring to another one
-celcius =(fahrenheit-32)*5/9;
-fahrenheit = (celcius * (9/50))+32;
+celcius =(80-32)*5/9;
+fahrenheit = (50 * (9/50))+32;
