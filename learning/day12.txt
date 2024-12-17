@@ -1,0 +1,77 @@
+-----------------HTML-------------------
+<button>
+    Hello
+</button>
+
+<p> 
+    paragraph of <button> hello </button> text
+</p>
+
+Note: putting element inside the element is called nesting.
+      New line also acts as single line in HTML.
+
+
+----------------CSS--------------------
+Inline CSS - <style color: "Red" font-family: "sansrif"> Hello World! </style>
+
+External CSS - In title or body we have to insert the link
+               <title>
+                  <link rel="stylesheet" href="Filename.css/location">
+               </title>
+        We can insert css in body tag also but it will load latly and it is not nice practise to do so.
+        It's nice to practise keeping css in title section.
+Internal CSS - <style>
+                body{
+                    font-family: Arial, sans-serif;
+                    background-color: "black";
+                }
+
+                h1{
+                    color:"red";
+
+                }
+
+                p{
+                    font-size: 12px;
+                }
+               </style>
+
+    -------------CSS selectors--------------
+
+    Here's a quick summary of common CSS selectors:
+
+   Universal (*): Targets all elements.
+         * { margin: 0; }
+
+   Type: Targets all elements of a specific type.
+         p { color: blue; }
+
+   Class (.): Targets elements with a specific class.
+         .classname { color: red; }
+
+   ID (#): Targets an element with a specific ID.
+         #unique-id { font-size: 20px; }
+   
+   Attribute: Targets elements with a specific attribute.
+         input[type="text"] { border: 1px solid; }
+   
+   Descendant (space): Targets elements inside a specified ancestor.
+         div p { margin: 5px; }
+   
+   Child (>): Targets direct children of an element.
+         ul > li { color: green; }
+   
+   Adjacent Sibling (+): Targets the next sibling of an element.
+         h1 + p { margin-top: 0; }
+   
+   General Sibling (~): Targets all siblings of an element.
+         h1 ~ p { color: gray; }
+   
+   Pseudo-Classes: Targets elements in a specific state.
+         a:hover { color: orange; }
+   
+   Pseudo-Elements: Targets parts of an element.
+         p::first-line { font-weight: bold; }
+
+
+         
